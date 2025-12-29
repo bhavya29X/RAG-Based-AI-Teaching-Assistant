@@ -121,6 +121,49 @@ process_incoming.py
 
 ---
 
+## ⚠️ Processing Time & System Load Disclaimer
+
+The **video-to-audio** and **audio-to-text** steps are **computationally expensive** and may take a significant amount of time depending on your system configuration.
+
+### ⏱️ Expected Processing Time
+
+* Total videos processed: **18**
+* Average time per file (MP3 → JSON using Whisper large-v2): **~1 hour per file**
+* Total transcription time can exceed **18+ hours** on CPU-only systems
+
+### 🧠 System Limitations
+
+* This project was executed on a system with **8 GB RAM**
+* Running transcription on **multiple files simultaneously may overload your system**
+* High CPU and memory usage is expected during execution
+
+### 🔄 Execution Strategy Used
+
+* Code supports **processing MP3 files sequentially (one-by-one)** to reduce system load
+* For systems with limited RAM or no GPU:
+
+  * It is **strongly recommended** to process files **individually**
+  * Execute the transcription script for **one file at a time**
+
+### 🛠️ Practical Approach Followed
+
+* Transcription was performed **separately for each MP3 file**
+* After processing one file:
+
+  * The filename was updated manually
+  * The script was re-run for the next file
+* This approach ensures **stability** on low-memory systems
+
+### 📌 Recommendation
+
+If your system cannot handle batch processing:
+
+* Modify the script to accept **a single filename**
+* Process files **one at a time**
+* Avoid parallel execution unless sufficient RAM and GPU resources are available
+
+---
+
 ## 📌 Final Tip
 
 Follow the steps **in the same order** for correct execution.
