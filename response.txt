@@ -1,7 +1,0 @@
-In this Sigma web development course, both "Video, Audio & Media in HTML" videos (#10) cover topics related to video and audio tags. 
-
-The first part of the second video (0:22.6 - 0:146.4 seconds) is about learning how to play a video, putting a video into an HTML file, and putting media elements. It also talks about other attributes of the video tag.
-
-The course covers more on video controls through some specific attributes in that very first part of the second video itself (around 0:287.4 - 0:298.4 seconds), but this is covered briefly and it has a separate main topic of audio later (starts at around 0:56.8 - 0:75.6 seconds) which includes its own attributes.
-
-However, if you're looking to fully grasp how video controls are used in the course material, including being able to enable or disable them, I would recommend going straight to that part of Video #10 (which starts at around 20 seconds).
