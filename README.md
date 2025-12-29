@@ -81,6 +81,14 @@ The assistant learns directly from video content and generates accurate, context
 
 ---
 
+## ⚠️ Note: 
+
+* Video-to-MP3 and MP3-to-JSON steps are time-intensive.  
+* Using Whisper (large-v2), transcription takes ~1 hour per file on CPU.  
+* On low-RAM systems, process files one-by-one to avoid crashes.
+
+---
+
 ## 🤝 Connect
 
 LinkedIn: [https://www.linkedin.com/in/bhavya-shah-622a9a271/](https://www.linkedin.com/in/bhavya-shah-622a9a271/)
