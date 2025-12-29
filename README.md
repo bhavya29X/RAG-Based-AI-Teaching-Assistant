@@ -84,4 +84,5 @@ The assistant learns directly from video content and generates accurate, context
 ## 🤝 Connect
 
 LinkedIn: [https://www.linkedin.com/in/bhavya-shah-622a9a271/](https://www.linkedin.com/in/bhavya-shah-622a9a271/)
+Email: [bhavya29shah10@gmail.com](bhavya29shah10@gmail.com)
 
